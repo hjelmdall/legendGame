@@ -195,7 +195,7 @@ void Player::lose()
 void Player::readFromFile(){
 	std::ifstream iFile;
 	std::cout << "THE LEGEND BEGINS....\n\n";
-	iFile.open("C:\\Users\\Jon\\My Documents\\Act1.txt");
+	iFile.open("C:\\legendGame\\Act1.txt");
 	//^input file location for text file for ACT 1!
 	//iFile.open("C:\\Users\\Jon\\My Documents\\Act1.txt");
 	int i = 0;
